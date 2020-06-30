@@ -2,6 +2,7 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -22,6 +23,19 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #d91965;
   color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 1080px;
+  width: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
